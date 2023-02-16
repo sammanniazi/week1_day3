@@ -31,14 +31,15 @@
 #navbar::before{
 
     content: "";
-    background-color: black;
+    background-color: rgb(254, 243, 243);
     position: absolute;
     top:0px;
     left:0px;
     height: 100%;
     width: 100%;
     z-index:-1;
-    opacity: 0.95;
+    opacity: 0.7;
+    
  
 }
 #navbar li{
@@ -72,7 +73,7 @@
    #home::before{
 
     content: "";
-    background:url("../images/backgroundimg.jpg") no-repeat center center/cover;
+    background:url("../images/homebg.jpg") no-repeat center center/cover;
     position: absolute;
     height: 100%;
     top:0px;
@@ -80,7 +81,8 @@
     
     width: 100%;
     z-index:-1;
-    opacity: 0.3;
+    opacity: 0.7;
+    
 }
 
 
@@ -90,9 +92,10 @@
 }
 #home p{
 
-    color: blue;
+    color: rgb(12, 12, 83);
     text-align: center;
     font-size: 1.5rem;
+    font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
 
@@ -161,6 +164,7 @@
 .h-primary{
     font-size: 2.8rem;
     padding: 12px;
+    color: rgb(241, 128, 6);
 }
 .h-secondary{
     
@@ -173,7 +177,7 @@
 
     padding: 6px 20px;
     border: 2px solid rgb(15, 15, 15);
-    background-color: rgb(174, 165, 210);
+    background-color: rgb(57, 40, 129);
     color: white;
     margin: 17px;
     font-size:1.5rem;
@@ -187,7 +191,11 @@
 
 footer{
 
+
+
     background: black;
     color: white;
-    padding: 9px 20px;
+    
+    padding: 30px 50px;
 }
+
